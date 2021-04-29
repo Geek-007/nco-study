@@ -38,7 +38,7 @@ make 2>&1 | tee $APP.make
 make install 2>&1 | tee $APP.install
 
 
-##GSL
+# GSL
 APP=gsl
 GSL_PATH=$INSTALL_PATH/$APP
 rm -rf $GSL_PATH
